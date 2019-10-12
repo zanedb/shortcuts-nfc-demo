@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 120vh;
+  max-width: 128rem;
+  max-height: 32rem;
+  padding: 4rem;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.container > * {
+  z-index: 9;
+  position: relative;
+  top: 0;
+}
+
+.container > canvas {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+}
+
+.center-on-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  transition: background-color 1s;
+  font-family: Helvetica;
+}
+
+.number {
+  color: white;
+  font-size: 22vmin;
+  font-weight: 700;
+}
+
+.sub-text {
+  color: white;
+  font-size: 8vmin;
+  font-weight: 400;
+}
+
+.message {
+  color: white;
+  font-size: 5vmin;
+}
+
+.flex-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.messages {
+  margin: 1rem;
+  position: absolute;
+}
