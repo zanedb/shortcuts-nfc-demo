@@ -2,6 +2,10 @@
 
 This is a lil demo designed to show off the NFC tag abilities of [iOS Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios). It uses iOS 13.1's Automations feature. Please note this only works on iPhone XS and newer, and requires NFC tags. I personally use [these](https://smile.amazon.com/gp/product/B075CFXY8V/), as recommended by [Jason Snell](https://twitter.com/jsnell).
 
+### See it in action!
+
+[<img src="https://cloud-lbv1kus5s.vercel.app/image.png" alt="TikTok thumbnail" width="250"/>](https://www.tiktok.com/@zanedb/video/6746956758410988806)
+
 ### Setup:
 
 1. Load [this website](https://shortcuts-nfc-demo.glitch.me).
